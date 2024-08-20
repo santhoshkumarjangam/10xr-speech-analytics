@@ -1,4 +1,3 @@
-'''
 import speech_recognition as sr
 
 def transcribe_audio(audio_file):
@@ -12,9 +11,8 @@ def transcribe_audio(audio_file):
         return "Could not understand audio"
     except sr.RequestError:
         return "Could not request results"
-'''
 #*******************************************************
-
+"""
 import os
 from dotenv import load_dotenv
 
@@ -63,3 +61,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
